@@ -1,43 +1,101 @@
+@import url('https://fonts.googleapis.com/css2? family= Krona+One & família= Montserrat:wght@400;600 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-preta: #000000;
+    --cor-secundaria: #615d5d;
+    --fonte-krona: 'Krona One', sans-serif;
+    --fonte-montserrat: 'Montserrat',sans-serif ;
+}
 body{
-    background-color: darkgrey;
+    box-sizing: border-box;
+    background-color: var(--cor-preta);
+    color: var(--cor-secundaria);
 }
-menu{
-    align-items: center;
-    text-align: center;
-  background-color: rgb(129, 129, 131);
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
 }
-#container{
-    block-size:auto;
-    margin: auto;
-    width: 80rem;;
-    height: 60rem;
-    background-color: rgb(127, 126, 128);
+
+.menu_texto{
+    text-align:center;
+    font-size: 50px;
+    font-family: var(--fonte-krona);
+
+
+}
+
+.container{
+    padding: 4.3% 18%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: var(--cor-secundaria);
     border-radius: 2%;
     border: 10px solid rgb(112, 111, 124);
     border-style:groove;
-    text-align: center;
-    
-}
-main {
     align-items: center;
-}
-h1{
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
     
-h2{
     
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    font-display: auto;
 }
-img{
-    border: 5px solid rgb(109, 107, 134);
+
+.continer__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+    
+.container_texto{
+    
+    text-align: center;
+    font-family: var(--fonte-krona);
+    font-size: 48px;
+    color: var(--cor-preta);
+}
+.borda{
+    border: 5px solid rgb(66, 65, 81);
     border-style:groove;
     border-radius: 5%;
-}
-img{
     width: 25rem ;
     height: 15rem;
+}
+
+.rodape{
+    color: var(--cor-primaria);
+    background-color:var(--cor-preta);
+    padding: 18px;
+    text-align: center;
+    font-family:var(--fonte-montserrat);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+
+@media ( max-width: 500px){
+
+    .menu{
+        padding: 10%;
+    }
+    
+    .continer{
+        flex-direction:column;
+        padding: 2%;
+    }
+    .menu_texto{
+        text-align:center;
+    }
+    
 }
