@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcular retângulo</title>
+    <link rel="stylesheet" href="css/calcular-retangulo.css">
+    <script src="js/func_calcular_rettangulo.js"></script>
+</head>
+<body>
+    <menu>
+        <h1>ARMARIA SISTEMA</h1>
+    </menu>
+    <main>
+        <div id="container">
+            <div>
+                <h2>
+                     sistemas de calculos
+                </h2> 
+                <h3>
+                    aqui o sistema mostra o valor <br>
+                    da area de um retângulo.<br>
+                </h3>
+            </div>
+            <div>
+                <label for="base">digite o valor da base do retângulo</label>
+                <br>
+                <input type="number" id="base" name="base" >
+                <br>
+                <label for="altura">digite o valor da altura do retângulo </label>
+                <br>
+                <input type="number" id="altura" name="altura" >
+                <br><br>
+                <input type="submit" value="calcular" onclick="calcularRETANNGULO()">
+            </div>
+            <br><br><br><br><br>
+            <div>
+                <h3>o valor da area do retângulo é: </h3>
+                <p id="area"></p>
+            </div>
+            <br><br><br><br>
+            <a href="index.html" ><button>voltar</button></a>
+        </div>
+        
+        <script src="js/func_calcular_rettangulo.js"></script>
+    
+</body>
+</html>

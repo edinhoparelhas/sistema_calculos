@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcular voto</title>
+    <link rel="stylesheet" href="css/calcular_voto.css">
+    
+<body>
+    <menu>
+        <h1>ARMARIA SISTEMA</h1>
+    </menu>
+    <main>
+        <div id="container">
+            <div>
+                <h2>
+                     sistemas de calculos
+                </h2> 
+                <h3>
+                    aqui o sistema mostra qual a obrigatoriedade <br>
+                    do eleitor em relação ao voto. <br>
+                </h3>
+            </div>
+            <div>
+                <label for="idade">digite sua idade</label>
+                <br>
+                <input type="number" id="idade" name="idade" >
+                <br>
+                <br>
+                <input type="submit" value="calcular" onclick="SABERogrigatoriedadeVOTO()">
+            </div>
+            <br><br><br><br><br>
+            <div>
+                <h3>sua situação: </h3>
+                <p id="situacao"></p>
+            </div>
+            <br><br><br><br><br><br>
+            <a href="index.html" ><button>voltar</button></a>
+        </div>
+    
+        <script src="js/func_obrig_voto.js"></script>
+</body>
+</html>

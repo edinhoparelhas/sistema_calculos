@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>equação 2 grau</title>
+    <link rel="stylesheet" href="css/calcular_voto.css">
+    
+<body>
+    <menu>
+        <h1>ARMARIA SISTEMA</h1>
+    </menu>
+    <main>
+        <div id="container">
+            <div>
+                <h2>
+                     sistemas de calculos
+                </h2> 
+                <h3>
+                    aqui o sistema mostra se  a  <br>
+                    equação é do segundo grau, se possui ou nao  <br>
+                    raiz real e se possui duas raiz real. <br>
+
+                </h3>
+            </div>
+            <div>
+                <label for="a">digite o valor de a</label>
+                <br>
+                <input type="number" id="a" name="a" >
+                <br>
+                <label for="b">digite o valor de b</label>
+                <br>
+                <input type="number" id="b" name="b" >
+                <br>
+                <label for="c">digite o valor de c</label>
+                <br>
+                <input type="number" id="c" name="c" >
+                <br>
+                <br>
+                <input type="submit" value="calcular" onclick="equacao_seg_grau()">
+            </div>
+            <br><br><br><br><br>
+            <div>
+                <h3>tipo de equação</h3>
+                <p id="tipo"></p>
+            </div>
+            <a href="index.html" ><button>voltar</button></a>
+        </div>
+    
+        <script src="js/func_equac_2_grau.js"></script>
+</body>
+</html>

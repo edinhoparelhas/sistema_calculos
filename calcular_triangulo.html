@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcular triangulo</title>
+    <link rel="stylesheet" href="css/calcular_triangulo.css">
+    <script src="js/funcao_calcul_triang.js"></script>
+</head>
+<body>
+    <menu>
+        <h1>ARMARIA SISTEMA</h1>
+    </menu>
+    <main>
+        <div id="container">
+            <div>
+                <h2>
+                     sistemas de calculos
+                </h2> 
+                <h3>
+                    aqui o sistema mostra se o triangulo <br>
+                    é esosceles, equilatéro ou escaleno.<br>
+                </h3>
+            </div>
+            <div>
+                <label for="lado_a">digite o valor do lado A </label>
+                <br>
+                <input type="number" id="lado_a" name="lado_a" required>
+                <br>
+                <label for="peso">digite o valor do lado B  </label>
+                <br>
+                <input type="number" id="lado_b" name="lado_b" required >
+                <br>
+                <label for="peso">digite o valor do lado C  </label>
+                <br>
+                <input type="number" id="lado_c" name="lado_c" required> 
+                <br><br>
+                <input type="submit" value="calcular" onclick="calcularTRIANGULO()">
+            </div>
+            <br><br><br><br><br>
+            <div>
+                <h3>o tipo do triângulo é: </h3>
+                <p id="tipo"></p>
+            </div>
+            <br><br><br>
+            <a href="index.html" ><button>voltar</button></a>
+        </div>
+        
+        <script src="js/funcao_calcul_triang.js"></script>
+    
+</body>
+</html>

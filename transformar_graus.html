@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calcular circulo</title>
-    <link rel="stylesheet" href="css/calcular_circulo.css">
+    <title>transformar graus</title>
+    <link rel="stylesheet" href="css/transformar_graus.css">
     
 <body>
     <menu>
@@ -17,31 +17,27 @@
                      sistemas de calculos
                 </h2> 
                 <h3>
-                    aqui o sistema mostra a area  <br>
-                    de um circulo. <br>
+                    aqui o sistema mostra qual o valor <br>
+                    de graus celcius em graus Fahrenheit. <br>
                 </h3>
             </div>
             <div>
-                <label for="raio">digite o raio do circulo</label>
+                <label for="graus_celcius">digite o valor em graus celcius</label>
                 <br>
-                <input type="number" id="raio" name="raio" >
+                <input type="number" id="graus_celcius" name="graus_celcius" >
                 <br>
                 <br>
-                <input type="submit" value="calcular" onclick="areaCirculo()">
+                <input type="submit" value="calcular" onclick="graus_fahrenheit()">
             </div>
             <br><br><br><br><br>
             <div>
-                <h3>o valor da area do circulo é: </h3>
-                <p id="valor"></p>
-                
+                <h3>o valor da temperatura  em fahrenheit é: </h3>
+                <p id="temperatura"></p>
             </div>
-            <br><br><br><br><br><br>
+            <br><br><br><br><br>
             <a href="index.html" ><button>voltar</button></a>
         </div>
-
-    </main>
-    <script src="js/func_calcular_area_circulo.js"></script>
-    
+        <script src="js/func_transformar_graus.js"></script>
     
 </body>
 </html>

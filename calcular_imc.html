@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcular imc</title>
+    <link rel="stylesheet" href="css/calcular_imc.css">
+    
+</head>
+<body>
+    <menu>
+        <h1>ARMARIA SISTEMA</h1>
+    </menu>
+    <main>
+        <div id="container">
+            <div>
+                <h2>
+                     sistemas de calculos
+                </h2> 
+                <h3>
+                    aqui o sistema mostra como está em  <br>
+                    relação a sua massa corporia.<br>
+                </h3>
+            </div>
+            <div>
+                <label for="peso">digite seu peso </label>
+                <br>
+                <input type="number" id="peso" name="peso" >
+                <br>
+                <label for="altura">digite sua altura  </label>
+                <br>
+                <input type="number" id="altura" name="altura" >
+                <br><br>
+                <input type="submit" value="calcular" onclick="calcularIMC()">
+            </div>
+            <br><br><br><br><br>
+            <div>
+                <h3>seu imc :</h3>
+                <p id="resposta"></p>
+                <br>
+                <h3>avaliação:</h3>
+                <p id="alerta"></p>
+                
+            </div>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <a href="index.html" ><button>voltar</button></a>
+            
+            
+        </div>
+    </main>
+    <script src="js/func_calcular_imc.js"></script>
+    
+</body>
+</html>
