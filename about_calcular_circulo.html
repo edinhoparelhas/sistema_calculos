@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcular circulo</title>
+    <link rel="stylesheet" href="css/calcular_circulo.css">
+    
+<body>
+    <menu>
+        <h1>ARMARIA SISTEMA</h1>
+    </menu>
+    <main>
+        <div id="container">
+            <div>
+                <h2>
+                     sistemas de calculos
+                </h2> 
+                <h3>
+                    aqui o sistema mostra a area  <br>
+                    de um circulo. <br>
+                </h3>
+            </div>
+            <div>
+                <label for="raio">digite o raio do circulo</label>
+                <br>
+                <input type="number" id="raio" name="raio" >
+                <br>
+                <br>
+                <input type="submit" value="calcular" onclick="areaCirculo()">
+            </div>
+            <br><br><br><br><br>
+            <div>
+                <h3>o valor da area do circulo é: </h3>
+                <p id="valor"></p>
+                
+            </div>
+            <br><br><br><br><br><br>
+            <a href="index.html" ><button>voltar</button></a>
+        </div>
 
+    </main>
+    <script src="js/func_calcular_area_circulo.js"></script>
+    
+    
+</body>
+</html>
