@@ -1,0 +1,38 @@
+body{
+    background-color: darkgrey;
+}
+menu{
+    align-items: center;
+    text-align: center;
+  background-color: rgb(129, 129, 131);
+}
+#container{
+    block-size: auto;
+    margin: auto;
+    align-items: center;
+    width:600px;
+    height: 800px;
+    background-color: rgb(127, 126, 128);
+    border-radius: 2%;
+    border: 10px solid rgb(112, 111, 124);
+    border-style:groove;
+    text-align: center;
+    
+}
+main {
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+h2{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-display: auto;
+}
+p{
+    font-size: 25px;
+}

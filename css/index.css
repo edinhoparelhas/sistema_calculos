@@ -1,0 +1,43 @@
+body{
+    background-color: darkgrey;
+}
+menu{
+    align-items: center;
+    text-align: center;
+  background-color: rgb(129, 129, 131);
+}
+#container{
+    block-size:auto;
+    margin: auto;
+    width: 80rem;;
+    height: 60rem;
+    background-color: rgb(127, 126, 128);
+    border-radius: 2%;
+    border: 10px solid rgb(112, 111, 124);
+    border-style:groove;
+    text-align: center;
+    
+}
+main {
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+h2{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-display: auto;
+}
+img{
+    border: 5px solid rgb(109, 107, 134);
+    border-style:groove;
+    border-radius: 5%;
+}
+img{
+    width: 25rem ;
+    height: 15rem;
+}
