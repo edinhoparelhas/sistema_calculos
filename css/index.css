@@ -119,8 +119,8 @@ body{
        
     }
     .container_texto{
-        font-weight: 50;
-        font-size: 20px;
+        font-weight: 300;
+        font-size: 40px;
         text-align: center;
         display: flex;
         justify-content: center;
