@@ -101,7 +101,7 @@ MEDIAfinal=()=>{
 SABERogrigatoriedadeVOTO = () => {
     idade = document.getElementById("idade").value
     nao_vota=("você não está abto a votar")
-    voto_facultativo=("voto faculltativo")
+    voto_facultativo=("voto facultativo")
     voto_obrigatorio=("voto obrigatório")
     if (idade < 16){
        document.getElementById("situacao").innerHTML=nao_vota
