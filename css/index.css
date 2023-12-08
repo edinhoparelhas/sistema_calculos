@@ -93,6 +93,12 @@ body{
 
 @media only screen and ( max-width: 750px){
 
+    body{
+        box-sizing: border-box;
+        background-color: var(--cor-preta);
+        color: var(--cor-secundaria);
+        padding: 0 10% 0 10%;
+    }
     .menu{
         padding: 10%;
     }
