@@ -66,7 +66,6 @@ body{
 
 
 .borda_imagem{
-    
     border: 5px solid rgb(66, 65, 81);
     border-style:groove;
     border-radius: 5%;
@@ -92,7 +91,7 @@ body{
 }
 
 
-@media ( max-width: 1000px){
+@media only screen and ( max-width: 750px){
 
     .menu{
         padding: 10%;
@@ -104,6 +103,8 @@ body{
     }
     .menu_texto{
         text-align:center;
+        font-size: 35px;
+        font-weight: 400;
     }
     .continer__conteudo{
     
@@ -111,14 +112,28 @@ body{
         flex-direction: column;
        
     }
+    .container_texto{
+        font-weight: 50;
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
     .borda_imagem{
     
        display: flex;
        flex-direction: column;
     }
-    .container_link{
-        display: flex;
-        justify-content: center;
-        width: auto;
+    .borda_imagem{
+        border: 5px solid rgb(66, 65, 81);
+        border-style:groove;
+        border-radius: 5%;
+        width: 10rem;
+        height: 5rem;
+        
+    }
+    .rodape{
+        font-size: 20px;
     }
 }
