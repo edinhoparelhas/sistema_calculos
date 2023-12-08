@@ -20,27 +20,23 @@ menu{
     
 }
 main {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-h1{
+ a h1{
+    text-align: center;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
     
 h2{
-    
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-display: auto;
 }
-img{
-    border: 5px solid rgb(109, 107, 134);
-    border-style:groove;
-    border-radius: 5%;
-}
-button{
-    border-style: groove;
-}
+
 p{
-    font-size: 20px;
+    font-size : 25px;
 }
