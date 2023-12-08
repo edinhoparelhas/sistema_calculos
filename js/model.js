@@ -97,23 +97,6 @@ MEDIAfinal=()=>{
     nota_4=document.getElementById("nota_4").value=null
 }
 
-mediaIndefinida=()=>{
-    alunos=[]
-    somou= true
-    do{
-        qnt_alunos=document.getElementById("nota").value
-        alunos.push(nota)
-        sair=confirm("deseja continuar ?")
-        qnt_alunos=document.getElementById("nota").value=null
-        
-    }while(sair == somou )
-    
-}
-for (i=0; i<alunos.length; i++){
-    somatorio+=alunos[i]
-    media=somatorio/i
-}
-document.getElementById("media").innerHTML=media
 
 SABERogrigatoriedadeVOTO = () => {
     idade = document.getElementById("idade").value
